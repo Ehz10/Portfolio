@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div>
+        <a class="openbtn" onclick="openNav()">&#9776</a>
+        <!--<button class="openbtn" onclick="openNav()">&#9776</button>-->
+    </div>
+    <div id="MySideBar" class="right-sidebar">
+        <button class="closebtn" onclick="closeNav()">&times;</button>
+        <a href="index.html#first">About</a>
+        <a href="experience.html#first">Experience</a>
+        <a href="education.html#first">Education</a>
+        <a href="index.html#Contacts">Contacts</a>
+    </div>
+    <div class="main" id="main">
+        <section class="Presentation reveal" id="first">
+            <h1>I'm Tiago Rodrigues</h1>
+            <div class="content">
+                <div class="image">
+                    <img src="imgs/ProfilePhoto2.jpg" alt="" class="profile-image">
+                </div>
+                <div class="about">
+                    <p>Currently I'm a student at <a href="https://www.istec.pt/">ISTEC - Instituto Superior de
+                            Tecnologias Avançadas</a>, pursuing a Banchelor's degree in Computer Engineering.</p>
+                    <p>Learning:</p>
+                    <ol>
+                        <ul><img src="imgs/C++image.png" class="icon" alt="C++"></ul>
+                        <ul><img src="imgs/Cimage.png" class="icon" alt="C"></ul>
+                    </ol>
+                    <p>Skills:</p>
+                    <ol>
+                        <ul><img src="imgs/pythonicon.png" class="icon" alt="Python"></ul>
+                        <ul><img src="imgs/htmlicon.png" class="icon" alt="HTML"></ul>
+                        <ul><img src="imgs/cssicon.png" class="icon" alt="CSS"></ul>
+                        <ul><img src="imgs/javascripticon.png" class="icon" alt="JavaScript"></ul>
+                        <ul><img src="imgs/outsystems icon.png" class="icon" alt="OutSystems"></ul>
+                    </ol>
+                    <a href="docs/CurrículoENTiagoRodrigues.pdf" download class="download">Download Resume</a>
+                </div>
+            </div>
+        </section>
+        <section class="Portfolio reveal">
+            <div class="container reveal">
+                <h1>Space Shooter</h1>
+                <div class="content">
+                    <div class="image">
+                        <img src="imgs/spaceshootergame.png" class="square">
+                        <p>(Place the mouse hover the image to a better view)</p>
+                    </div>
+                    <div class="description">
+                        <p>I created this game to apply the knowledge I've acquired.
+                            <br>The game was built using the POO (object-oriented programming) concept.
+                            <br>The player loses when the ship's life bar turns completely red or if he lets 3 enemy
+                            ships pass the end of the screen.
+                        </p>
+                        <p>Platform:</p>
+                        <ol>
+                            <ul><img src="imgs/pythonicon.png" class="icon" alt="Python"></ul>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="container reveal">
+                <h1>Gap Traditional</h1>
+                <div class="content">
+                    <div class="image">
+                        <img src="imgs/GAPtraditionalProgram.png" class="horizontal">
+                        <p>(Place the mouse hover the image to a better view)</p>
+                    </div>
+                    <div class="description">
+                        <p>This project is a web application that consists of controlling projects, activities and actions.
+                        <br>The following parameters were used for this project:</p>
+                        <ol>
+                            <li>3-layer canvas;</li>
+                            <li>Business Process Technology;</li>
+                            <li>Expose and consume REST;</li>
+                            <li>Expose and consume SOAP;</li>
+                            <li>Export to Excel;</li>
+                            <li>Export to a Word template;</li>
+                            <li>Dashboard;</li>
+                        </ol> 
+                        <p>Platform:</p>
+                        <ol>
+                            <ul><img src="imgs/outsystems icon.png" class="icon" alt="OutSystems"></ul>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="container reveal">
+                <h1>Gap Mobile</h1>
+                <div class="content">
+                    <div class="image">
+                        <img src="imgs/GAPMobile.png" class="vertical">
+                        <p>(Place the mouse hover the image to a better view)</p>
+                    </div>
+                    <div class="description">
+                        <p>This project is a web application that consists of controlling projects, activities and actions.
+                            <br>The following parameters were used for this project:</p>
+                            <ol>
+                                <li>3-layer canvas;</li>
+                                <li>Business Process Technology;</li>
+                                <li>Expose and consume REST;</li>
+                                <li>Expose and consume SOAP;</li>
+                                <li>Export to Excel;</li>
+                                <li>Export to a Word template;</li>
+                                <li>Dashboard;</li>
+                            </ol> 
+                        <p>Platform:</p>
+                        <ol>
+                            <ul><img src="imgs/outsystems icon.png" class="icon" alt="OutSystems"></ul>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="container reveal">
+                <h1>BikeShop</h1>
+                <div class="content">
+                    <div class="image">
+                        <img src="imgs/BikeShopMobile.png" class="vertical">
+                        <p>(Place the mouse hover the image to a better view)</p>
+                    </div>
+                    <div class="description">
+                        <p>This project consists of an app for buying and selling bicycles</p>
+                        <p>Platform:</p>
+                        <ol>
+                            <ul><img src="imgs/outsystems icon.png" class="icon" alt="OutSystems"></ul>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Contacts reveal" id="Contacts">
+            <h1>Contacts</h1>
+            <p>If you are interested in my work, please contact me!</p>
+            <div class="contacts">
+                <p>Phone: <a href="tel:+351964104627">(+351) 964 104 627</a></p>
+                <p>Email: <a href="mailto:tiagomidorodrigues@gmail.com">tiagomidorodrigues@gmail.com</a></p>
+                <p>Linkedin: <a href="https://www.linkedin.com/in/tiago-rodrigues-214741235/">Tiago Rodrigues</a></p>
+                <p>Github: <a href="https://github.com/Ehz10">Ehz10</a></p>
+            </div>
+        </section>
+        <a class="back-to-top" id="back-to-top" onclick="topFunction()">&#8679;</a>
+    </div>
+</body>
+
+</html>
