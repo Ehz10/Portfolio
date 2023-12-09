@@ -214,3 +214,7 @@ section h1{
     font-size: 32px;
     cursor: pointer;
 }
+.content a{
+    top: 10px;
+    color: aqua;
+}
